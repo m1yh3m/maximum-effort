@@ -1,0 +1,7 @@
+REPOS="purescript-validation purescript-record package-sets documentation purescript-partial purescript purescript.github.io pursuit-backups purescript-ordered-collections purescript-lists psc-package purescript-arrays purescript-datetime purescript-tailrec purescript-generics-rep purescript-foreign-object purescript-prelude pursuit purescript-refs purescript-effect purescript-quickcheck purescript-invariant purescript-control purescript-functors purescript-tuples purescript-console purescript-gen purescript-newtype purescript-free purescript-graphs purescript-strings purescript-transformers purescript-psci-support purescript-foreign purescript-parallel purescript-catenable-lists purescript-semirings purescript-enums purescript-nonempty purescript-unfoldable purescript-profunctor purescript-const purescript-contravariant purescript-st purescript-lazy purescript-distributive purescript-identity purescript-exceptions purescript-either purescript-foldable-traversable purescript-orders purescript-bifunctors purescript-minibench purescript-lcg purescript-random purescript-integers purescript-maybe purescript-exists purescript-globals purescript-assert purescript-unsafe-coerce purescript-typelevel-prelude purescript-type-equality purescript-functions purescript-math purescript-proxy trypurescript logo community-server roadmap gsoc core-tests purescript-in-purescript"
+for repo in $REPOS
+do
+  git clone git@github.com:purescript/$repo.git ~/code/github/purescript/$repo
+done
+
+
